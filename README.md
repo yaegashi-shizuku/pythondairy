@@ -6,6 +6,8 @@
 
 ## 給你看看
 
+[網站網址(host by heroku)](https://pythondairy1.herokuapp.com)
+
 @@?
 
 ## 使用技術
