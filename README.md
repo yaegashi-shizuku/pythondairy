@@ -8,7 +8,7 @@
 
 [網站網址(host by heroku)](https://pythondairy1.herokuapp.com)
 
-@@? ![](https://github.com/yaegashi-shizuku/pythondairy.git)
+@@? ![](https://github.com/yaegashi-shizuku/pythondairy/blob/master/879669.png)
 
 ## 使用技術
 
