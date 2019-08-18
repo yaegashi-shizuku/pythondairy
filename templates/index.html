@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style12.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">欸 你過來一下</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">回去</a></li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="col-md-4" style="padding:20px;">
+            <img class="img-responsive img-circle" src="/static/a.gif">
+        </div>
+        <div class="col-md-8">
+            <h2><span class="glyphicon glyphicon-user"></span> 科學的鼻地大師</h2>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>甚麼閃現</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>欸幹</td>
+                      <td>怎麼墮道李星</td>
+                    </tr>
+                    <tr>
+                      <td>哇哈哈</td>
+                      <td>誇抓 哈哈哈哈</td>
+                    </tr>
+                    <tr>
+                      <td>索娜</td>
+                      <td>AD掛網</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th class="danger">乾我</th>
+                    <th class="success">嬰兒 墮</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for c in cat %}
+                <tr>
+                    <td>{{ c[0] }}</td>
+                    <td><a href="/category/{{ c[0] }}">{{ c[1] }}個低能兒</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+      </div>
+    </div>
+
+  </body>
+</html>
