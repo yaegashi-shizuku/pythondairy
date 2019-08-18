@@ -19,6 +19,8 @@ Flask(python)    | 幫助我建立伺服器
 HTML/CSS  | 網頁表示和排版
 Heroku   | 託管網頁
 Github   | 存放原始碼
+專      |精
+索   |娜
 
 ## 程式碼片段
 
